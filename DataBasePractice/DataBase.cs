@@ -9,7 +9,7 @@ namespace DataBasePractice
 {
     class DataBase
     {
-        SqlConnection sqlConnection =new SqlConnection(@"Data Source = DESKTOP-M9E9S8K;Initial Catalog = test_db;Integred Security = True");
+        SqlConnection sqlConnection =new SqlConnection(@"Data Source = DESKTOP-M9E9S8K;Initial Catalog = demoPractice;Integrated Security = True");
         public void openConnection()
         {
             if (sqlConnection.State == System.Data.ConnectionState.Closed) { sqlConnection.Open(); }
