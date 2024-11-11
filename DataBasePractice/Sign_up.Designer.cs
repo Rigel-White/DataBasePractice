@@ -88,6 +88,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Sign_up";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "sign_up";
             this.ResumeLayout(false);
             this.PerformLayout();
