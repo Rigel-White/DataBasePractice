@@ -45,9 +45,8 @@ namespace DataBasePractice
             {
                 MessageBox.Show("Вы успешно вошли!", "Успешно", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Form1 frm = new Form1();
+                frm.Show();
                 this.Hide();
-                frm.ShowDialog();
-                this.Show();
             }
             else
             {
