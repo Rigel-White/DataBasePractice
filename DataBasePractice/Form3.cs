@@ -21,5 +21,12 @@ namespace DataBasePractice
             textBox1.Text = Host;
             textBox2.Text = IP;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
     }
 }
